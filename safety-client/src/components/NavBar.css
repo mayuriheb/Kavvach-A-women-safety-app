@@ -1,0 +1,35 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background: rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(15px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.nav-title {
+  font-size: 26px;
+  font-weight: 700;
+  color: #06224c;
+}
+
+.nav-links {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-btn {
+  padding: 10px 18px;
+  background: #06224c;
+  color: white;
+  border-radius: 25px;
+  font-size: 15px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.nav-btn:hover {
+  transform: scale(1.1);
+  background: #0a3876;
+}
