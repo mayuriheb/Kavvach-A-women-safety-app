@@ -1,0 +1,47 @@
+/* Navigation Bar Styling */
+.navbar {
+  width: 100%;
+  padding: 15px 40px;
+  background: white;
+  border-bottom: 1px solid #e6e6e6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Branding / Logo */
+.nav-logo {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1a2b49;
+}
+
+/* Link container */
+.nav-links {
+  display: flex;
+  gap: 25px;
+}
+
+/* Individual Links */
+.nav-links a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #3554f4;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+/* Hover Effect */
+.nav-links a:hover {
+  color: #1a2b49;
+  transform: translateY(-2px);
+}
+
+/* Active Page Indicator */
+.nav-links a.active {
+  border-bottom: 2px solid #1a2b49;
+  padding-bottom: 3px;
+}
